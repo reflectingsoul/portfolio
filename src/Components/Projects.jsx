@@ -7,13 +7,32 @@ export default function Projects() {
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-gray-800 rounded-xl p-6 shadow-md">
           <h3 className="text-xl font-bold mb-2">Meme Generator</h3>
-          <p className="text-gray-400 mb-4">A fun React app that fetches random Indian memes using an API. Styled with Tailwind CSS.</p>
-          <a href="#" className="text-pink-400 hover:underline">Live Demo</a>
+          <p className="text-gray-400 mb-4">
+            A fun React app that fetches random Indian memes using an API. Styled with Tailwind CSS.
+          </p>
+          <a
+            href="https://your-meme-generator-link.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pink-400 hover:underline"
+          >
+            Live Demo
+          </a>
         </div>
+
         <div className="bg-gray-800 rounded-xl p-6 shadow-md">
           <h3 className="text-xl font-bold mb-2">POS System</h3>
-          <p className="text-gray-400 mb-4">Inventory & POS management system built with Node.js and MongoDB. UI made with React.</p>
-          <a href="#" className="text-pink-400 hover:underline">View Project</a>
+          <p className="text-gray-400 mb-4">
+            Inventory & POS management system built with Node.js and MongoDB. UI made with React.
+          </p>
+          <a
+            href="https://pos-project-kappa.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pink-400 hover:underline"
+          >
+            View Project
+          </a>
         </div>
       </div>
     </section>
