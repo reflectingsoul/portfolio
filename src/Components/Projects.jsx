@@ -52,6 +52,22 @@ export default function Projects() {
             Explore Project
           </a>
         </div>
+
+        {/* CCTV Dashboard */}
+        <div className="bg-gray-800 rounded-xl p-6 shadow-md">
+          <h3 className="text-xl font-bold mb-2">CCTV Dashboard</h3>
+          <p className="text-gray-400 mb-4">
+            A real-time CCTV monitoring dashboard built with React. Allows viewing multiple camera feeds, managing alerts, and controlling PTZ cameras.
+          </p>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-pink-400 hover:underline"
+          >
+            View Project
+          </a>
+        </div>
       </div>
     </section>
   );
